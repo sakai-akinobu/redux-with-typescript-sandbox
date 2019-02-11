@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/sakai-akinobu/redux-with-typescript-sandbox#readme",
   "devDependencies": {
+    "@types/react": "^16.8.2",
+    "@types/react-dom": "^16.8.0",
     "ts-loader": "^5.3.3",
     "typescript": "^3.3.3",
     "webpack": "^4.29.3",
