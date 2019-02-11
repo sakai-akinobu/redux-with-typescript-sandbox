@@ -26,7 +26,7 @@ export const reducer = handleActions<State>(
   createInitialState(),
 );
 
-interface State {
+export interface State {
   count: number,
 }
 

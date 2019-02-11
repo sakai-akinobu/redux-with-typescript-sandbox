@@ -2,6 +2,7 @@ import * as React from 'react';
 import {Dispatch} from 'redux';
 import {connect} from 'react-redux';
 
+import {AppState} from '../../modules/reducers';
 import {
   increment,
   decrement,
@@ -36,7 +37,7 @@ function App(props: Props) {
   );
 }
 
-const mapStateToProps = (state: any) => ({
+const mapStateToProps = (state: AppState) => ({
   count: state.counters.count,
 });
 
